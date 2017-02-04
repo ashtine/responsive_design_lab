@@ -1,0 +1,51 @@
+*{
+    width: 100%;
+    border: 1px solid black;
+     -webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#container, ul, nav,body, html{
+    border: none;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* Navigation*/
+nav{
+    height: 90px;
+}
+ul li {
+    margin: 10px;
+    width: 15%;
+    height: 60px;
+    float: left;
+    list-style-type: none;
+}
+nav li:first-child{
+    float: right;
+    border: none;
+    height: 90px;
+}
+
+/* Main content */
+
+.main-section{
+    height: 500px;
+    margin: 20px 0;
+}
+.side{
+    height:100px;
+    width: 20%;
+    float: left;
+}
